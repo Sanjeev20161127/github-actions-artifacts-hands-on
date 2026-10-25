@@ -18,3 +18,11 @@ jobs:
       with:
         name: hello-artifact
         path: hello.txt
+  
+
+  download:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: display hello.txt file content
+      run: cat hello.txt

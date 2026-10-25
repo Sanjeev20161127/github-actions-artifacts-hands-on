@@ -22,6 +22,7 @@ jobs:
 
   download:
     runs-on: ubuntu-latest
+    needs: build
 
     steps:
     - name: display hello.txt file content
